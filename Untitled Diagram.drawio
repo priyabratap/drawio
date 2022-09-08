@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T13:14:20.140Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="dffZ4RPCVpurkQ2OKOxL" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T13:15:51.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="zQ8Nfv8HLmpt4m-nbZSf" version="20.3.0" type="github">
   <diagram id="kVht2dFqDZtxLDpAcKP1" name="Page-1">
     <mxGraphModel dx="1298" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,8 +100,8 @@
         <mxCell id="rmcyfAUi83gi5xZLipTE-36" value="post&#xa;time" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="rmcyfAUi83gi5xZLipTE-34">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rmcyfAUi83gi5xZLipTE-37" value="Big-data Infra (S3/Bigquery)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1079" y="360" width="430" height="420" as="geometry" />
+        <mxCell id="rmcyfAUi83gi5xZLipTE-37" value="Big-data Infra (S3/Bigquery)" style="rounded=0;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="355" width="420" height="430" as="geometry" />
         </mxCell>
         <mxCell id="rmcyfAUi83gi5xZLipTE-38" value="Ranking DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1110" y="390" width="60" height="80" as="geometry" />
