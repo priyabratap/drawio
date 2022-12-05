@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T08:12:57.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.6.0" etag="YbPzm2iYjNWa8t6uMO3L" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T08:19:59.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.6.0" etag="Qn47195CVoenxl-rvea0" type="github">
   <diagram id="TmZ8TIDr6G8HcvbQyJt6" name="Page-1">
     <mxGraphModel dx="1465" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,6 +42,27 @@
         </mxCell>
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-15" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Job of above components &amp;amp; Tech Stacks&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#EBEBEB;fillColor=#FAFAFA;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="1150" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-21" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Account Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1197" width="810" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-22" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Form Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1410" width="810" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-23" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Ingest Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1620" width="810" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-24" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;3rd Party Hook Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1830" width="810" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-25" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Engine&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2040" width="810" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-26" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Mobile SDK&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2250" width="810" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-27" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Data Analysis&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- High Availability and Reliable&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2460" width="810" height="193" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
