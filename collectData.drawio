@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T08:19:59.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.6.0" etag="Qn47195CVoenxl-rvea0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T08:40:32.341Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.6.0" etag="iSzgk-jOvGluY_HxdVZP" type="github">
   <diagram id="TmZ8TIDr6G8HcvbQyJt6" name="Page-1">
     <mxGraphModel dx="1465" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,10 +43,10 @@
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-15" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Job of above components &amp;amp; Tech Stacks&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#EBEBEB;fillColor=#FAFAFA;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="1150" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-21" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Account Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-21" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Account Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- User/Team management&lt;/p&gt;&lt;p&gt;- Authentication &amp;amp; Authorization&lt;/p&gt;&lt;p&gt;- 3rd party integration details&lt;/p&gt;&lt;p&gt;&amp;nbsp;- &lt;b&gt;DataBase:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;I will go for RDMS like &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;MySQL&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;. Mostly here data would be structured and very know well before about schema. Definitely we will use caching here, so will consider &lt;b&gt;Redis.&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="1197" width="810" height="193" as="geometry" />
         </mxCell>
-        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-22" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Form Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-22" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Form Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- Form management&lt;/p&gt;&lt;p&gt;- Rest APIs to get form-related info to display in the Admin panel&lt;/p&gt;&lt;p&gt;- 3rd party integration endpoint (As we are storing configuration in the account service, I feel this is the right place to keep the endpoint. For different endpoints might be different)&lt;/p&gt;&lt;p&gt;- &lt;b&gt;DataBase:&lt;/b&gt; I will go for NoSQL like &lt;b&gt;MongoDB&lt;/b&gt; as form fields are dynamic. We can cache form data, so considering &lt;b&gt;Redis&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="1410" width="810" height="193" as="geometry" />
         </mxCell>
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-23" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Ingest Service&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- High Availability and Reliable&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -63,6 +63,12 @@
         </mxCell>
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-27" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Data Analysis&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- High Availability and Reliable&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="2460" width="810" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-28" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#EBEBEB;fontSize=12;fillColor=#FCFCFC;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1230" width="55" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-29" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#EBEBEB;fontSize=12;fillColor=#FCFCFC;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1429" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
