@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T13:24:50.811Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.6.0" etag="DNmb7TlsXn-ICtuOA98t" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T13:28:33.961Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.6.0" etag="DBALY--CY-P04Pwns-C1" type="github">
   <diagram id="TmZ8TIDr6G8HcvbQyJt6" name="Page-1">
     <mxGraphModel dx="1465" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,14 +61,14 @@
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-26" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Mobile SDK&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;- Render UI and Capture sumission data&lt;/p&gt;&lt;p&gt;- SDK should have implemented a Local DB like &lt;b&gt;Hive &lt;/b&gt;to capture the form submission data first and then send via Ingestion API&lt;/p&gt;&lt;p&gt;- If there is no Internet, It should capture locally, and once the user becomes online send them&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="2280" width="810" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-27" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Data Analysis&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- High Availability and Reliable&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="2450" width="810" height="193" as="geometry" />
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-27" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;Data Analysis&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- Most of the Data related jobs will be done in the Data Engine&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- For data visualization, we can go ahead with a tool like &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px;&quot;&gt;&lt;b&gt;Tableau, Google Looker&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#E3E3E3;fillColor=#FCFCFC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2450" width="810" height="130" as="geometry" />
         </mxCell>
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-28" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#EBEBEB;fontSize=12;fillColor=#FCFCFC;" vertex="1" parent="1">
           <mxGeometry x="697.5" y="1210" width="55" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-29" value="MongoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#EBEBEB;fontSize=12;fillColor=#FCFCFC;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1410" width="70" height="80" as="geometry" />
+          <mxGeometry x="690" y="1416" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-31" value="Cassandra" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#EBEBEB;fontSize=12;fillColor=#FCFCFC;" vertex="1" parent="1">
           <mxGeometry x="690" y="1640" width="70" height="80" as="geometry" />
@@ -78,6 +78,9 @@
         </mxCell>
         <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-34" value="Redshift/BigQuery" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#EBEBEB;fontSize=12;fillColor=#FCFCFC;" vertex="1" parent="1">
           <mxGeometry x="680" y="2040" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wn4Z0gV1rq7Zk3F0k5iD-35" value="LocalDB - Hive" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#EBEBEB;fontSize=12;fillColor=#FCFCFC;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2287" width="70" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
